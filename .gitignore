@@ -72,3 +72,5 @@ _ReSharper*/
 *.tar.gz
 tests/bufoverrun
 tests/symresolve
+/libudis86/itab.h
+/libudis86/itab.c
