@@ -32,7 +32,7 @@ extern "C" {
 
 #include "types.h"
 
-#if defined(_MSC_VER) && defined(_USRDLL)
+#if defined(_MSC_VER) && defined(_USRDLL) && !defined(LIBUDIS86_STATIC)
 # ifdef LIBUDIS86_EXPORTS
 #  define LIBUDIS86_DLLEXTERN __declspec(dllexport)
 # else 
